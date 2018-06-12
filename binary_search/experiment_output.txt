@@ -1,0 +1,139 @@
+==== Algorithm Test ====
+Test on 1024 element array
+First three tests:
+Test value 1: 1952
+Returned index: 976
+Indexed value: 1952
+Test value 2: 344
+Returned index: 172
+Indexed value: 344
+Test value 3: 1654
+Returned index: 827
+Indexed value: 1654
+1000 tests completed with 0 errors
+Test non-value: -5
+Returned index: -1
+
+==== Basic Operations ====
+2^0 items: 1.000, no result: 1.000
+2^1 items: 1.481, no result: 1.501
+2^2 items: 1.797, no result: 2.163
+2^3 items: 2.509, no result: 3.059
+2^4 items: 3.303, no result: 4.038
+2^5 items: 4.184, no result: 5.022
+2^6 items: 5.167, no result: 6.008
+2^7 items: 6.026, no result: 7.003
+2^8 items: 7.018, no result: 8.002
+2^9 items: 8.065, no result: 9.002
+2^10 items: 8.990, no result: 10.001
+2^11 items: 9.968, no result: 11.000
+2^12 items: 10.955, no result: 12.000
+2^13 items: 12.026, no result: 13.000
+2^14 items: 13.065, no result: 14.000
+2^15 items: 14.031, no result: 15.000
+2^16 items: 15.023, no result: 16.000
+2^17 items: 15.991, no result: 17.000
+2^18 items: 17.022, no result: 18.000
+2^19 items: 17.987, no result: 19.000
+2^20 items: 19.001, no result: 20.000
+2^21 items: 20.012, no result: 21.000
+2^22 items: 20.944, no result: 22.000
+2^23 items: 22.059, no result: 23.000
+2^24 items: 23.005, no result: 24.000
+2^25 items: 24.444, no result: 25.000
+2^26 items: 25.731, no result: 26.000
+2^27 items: 26.892, no result: 27.000
+2^28 items: 27.913, no result: 28.000
+2^29 items: 28.982, no result: 29.000
+2^30 items: 29.990, no result: 30.000
+3^0 items: 1.000, no result: 1.000
+3^1 items: 1.503, no result: 2.000
+3^2 items: 2.675, no result: 3.295
+3^3 items: 4.071, no result: 4.864
+3^4 items: 5.473, no result: 6.454
+3^5 items: 7.011, no result: 7.959
+3^6 items: 8.716, no result: 9.615
+3^7 items: 10.140, no result: 11.136
+3^8 items: 11.761, no result: 12.741
+3^9 items: 13.348, no result: 14.328
+3^10 items: 14.892, no result: 15.905
+3^11 items: 16.594, no result: 17.514
+3^12 items: 18.039, no result: 19.024
+3^13 items: 19.678, no result: 20.682
+3^14 items: 21.257, no result: 22.216
+3^15 items: 22.868, no result: 23.825
+3^16 items: 24.399, no result: 25.435
+3^17 items: 25.869, no result: 26.952
+3^18 items: 27.619, no result: 28.596
+10^0 items: 1.000, no result: 1.000
+10^1 items: 2.855, no result: 3.496
+10^2 items: 5.833, no result: 6.715
+10^3 items: 8.991, no result: 9.969
+10^4 items: 12.378, no result: 13.364
+10^5 items: 15.671, no result: 16.688
+10^6 items: 19.027, no result: 19.953
+10^7 items: 22.321, no result: 23.334
+10^8 items: 25.689, no result: 26.655
+10^9 items: 28.911, no result: 29.935
+
+==== Execution Time ====
+2^0 items: 0.004605, no result: 0.005949
+2^1 items: 0.005762, no result: 0.007996
+2^2 items: 0.007299, no result: 0.009902
+2^3 items: 0.009332, no result: 0.012904
+2^4 items: 0.012235, no result: 0.017105
+2^5 items: 0.016622, no result: 0.021387
+2^6 items: 0.019958, no result: 0.025218
+2^7 items: 0.025392, no result: 0.031273
+2^8 items: 0.028239, no result: 0.034163
+2^9 items: 0.030837, no result: 0.038513
+2^10 items: 0.038483, no result: 0.043718
+2^11 items: 0.040630, no result: 0.047896
+2^12 items: 0.046365, no result: 0.053278
+2^13 items: 0.052860, no result: 0.058430
+2^14 items: 0.057811, no result: 0.062893
+2^15 items: 0.060847, no result: 0.067238
+2^16 items: 0.066295, no result: 0.072728
+2^17 items: 0.069812, no result: 0.076429
+2^18 items: 0.076537, no result: 0.081175
+2^19 items: 0.081049, no result: 0.088217
+2^20 items: 0.086874, no result: 0.093757
+2^21 items: 0.091842, no result: 0.098612
+2^22 items: 0.098098, no result: 0.105035
+2^23 items: 0.105780, no result: 0.112009
+2^24 items: 0.111318, no result: 0.117286
+2^25 items: 0.113232, no result: 0.117692
+2^26 items: 0.120146, no result: 0.123998
+2^27 items: 0.131439, no result: 0.133865
+2^28 items: 0.135073, no result: 0.137470
+2^29 items: 0.140155, no result: 0.141702
+2^30 items: 0.140923, no result: 0.142241
+3^0 items: 0.004432, no result: 0.006000
+3^1 items: 0.006273, no result: 0.009278
+3^2 items: 0.010539, no result: 0.014195
+3^3 items: 0.014798, no result: 0.020284
+3^4 items: 0.021144, no result: 0.026769
+3^5 items: 0.028123, no result: 0.033293
+3^6 items: 0.034690, no result: 0.041083
+3^7 items: 0.042333, no result: 0.048049
+3^8 items: 0.050072, no result: 0.056016
+3^9 items: 0.056971, no result: 0.063474
+3^10 items: 0.064804, no result: 0.070547
+3^11 items: 0.071948, no result: 0.078004
+3^12 items: 0.077917, no result: 0.085552
+3^13 items: 0.087879, no result: 0.093770
+3^14 items: 0.097048, no result: 0.103860
+3^15 items: 0.104771, no result: 0.111151
+3^16 items: 0.113620, no result: 0.121298
+3^17 items: 0.128416, no result: 0.135855
+3^18 items: 0.132430, no result: 0.139504
+10^0 items: 0.004754, no result: 0.006201
+10^1 items: 0.011201, no result: 0.015701
+10^2 items: 0.025504, no result: 0.030417
+10^3 items: 0.038467, no result: 0.043885
+10^4 items: 0.055277, no result: 0.060734
+10^5 items: 0.071899, no result: 0.077808
+10^6 items: 0.090065, no result: 0.096132
+10^7 items: 0.105881, no result: 0.113042
+10^8 items: 0.121010, no result: 0.125048
+10^9 items: 0.128952, no result: 0.134782
